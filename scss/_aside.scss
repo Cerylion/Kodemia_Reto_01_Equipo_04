@@ -1,0 +1,222 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12119.8px;
+    padding: 8px;
+    flex-wrap: wrap;
+    align-items: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.asideContainer{
+display:flex;
+width:255.54px;
+height:319.6px;
+background-color:#ffff;
+padding:16px;
+border-radius: 4px;
+flex-wrap: wrap;
+justify-content: center;
+.title{
+    display:flex;
+    font-size: 20px;
+    width: 223.54;
+    height: 100px;
+    margin:0px 0px 16px;
+    color:#242424;   
+}
+.information{
+display:flex;
+width: 223.54px;
+height: 72px;
+font-size: 16px;
+color:#575757;
+margin: 0px 0px 16px;
+}
+.btn{
+    color: #3b49df;
+    text-decoration: none;
+    padding: 7px 15px;
+    margin:0px 0px 4px;
+    border: 1px solid #3b49df;
+border-radius: .375rem;
+    width:223.54px;
+    height: 39.6px;
+    text-align: center;
+
+}
+.btn:hover{
+    background-color: #3b49df;
+    color:white;
+    text-decoration: underline;
+}
+.btn2{
+    color:#404040;
+    padding:8px 16px;
+    text-decoration: none;
+    width:223.54px;
+    height:40px;
+    text-align: center;
+}
+.btn2:hover{
+    background-color:rgb(167, 174, 244);
+   color: rgb(47, 58, 178);
+    text-decoration: underline;
+    border-radius: .365rem;
+}
+}
+.opciones{
+margin-top:10px;
+width:100%;
+display: flex;
+flex-direction: column;
+a{
+    color:black; 
+    text-decoration: none;
+}
+li>a:hover{
+    color: #3b49df;
+    text-decoration: underline;
+}
+.list{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width:100%;  
+    height: auto;
+
+}
+ul>li{
+    width:255.54px;
+    height: 40px;
+    padding: 8px 16px;
+    list-style: none;
+}
+li:hover{
+background-color: rgb(184, 189, 249);
+cursor: pointer;
+text-decoration: underline;
+border-radius: 4px;
+}
+
+
+.website{
+    display: flex;
+    flex-direction: row;
+    width:255.54px;
+justify-content: flex-start;
+margin-top:40px ;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 20px;
+}
+
+.fa-twitter:hover{
+text-decoration: underline;
+background-color:rgb(184, 189, 249);
+padding: 16px 8px;
+color: #3b49df;
+}
+.fa-facebook:hover{
+    text-decoration: underline;
+    background-color:rgb(184, 189, 249);
+    padding: 16px 8px;
+    color: #3b49df;
+    }
+    .fa-github:hover{
+        text-decoration: underline;
+        background-color:rgb(184, 189, 249);
+        padding: 16px 8px;
+        color: #3b49df;
+        }
+        .fa-instagram:hover{
+            text-decoration: underline;
+            background-color:rgb(184, 189, 249);
+            padding: 16px 8px;
+            color: #3b49df;
+            }
+            .fa-twitch:hover{
+                text-decoration: underline;
+                background-color:rgb(184, 189, 249);
+                padding: 16px 8px;
+                color: #3b49df;
+                }
+                .fa-mastodon:hover{
+                    text-decoration: underline;
+                    background-color:rgb(184, 189, 249);
+                    padding: 16px 8px;
+                    color: #3b49df;
+                    }
+    .popularTags{
+        width:255.54px;
+        height: 300.71px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+    }
+    .darkMode{
+        display:flex;
+        align-items: space-between;
+        width: 255.54px;
+        height:488.54;
+        background-color:#FFFF;
+        padding:8px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .DEV{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 14px;
+        height:32px ;
+        width:231.54px;
+    }
+    .Dark{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        width: 231.54px;
+        height:428.54px;
+        margin: 0px 0px 9px;
+        padding: 12px 4px 4px;
+    }
+    .Dark>h2{
+        width: 223.54;
+        height:90;
+        font-size: 24px;
+    }
+    .Dark>h2>a{
+    color: #3b49df;
+        text-decoration: underline;
+    }
+    .Dark>p{
+        width: 223.54;
+        height:72px;
+    }
+    .ultimateInfo{
+        width: 255.54px;
+    }
+    .devInfo{
+        width:255.54px;
+        height:84px;
+    }
+    .devSecond{
+        width:255.54px;
+        height:63px;
+        margin: 16px 0px 0px;
+    }
+    .devThird{
+        width:255.54px;
+        height:42px;
+        margin:16px 0px 0px;
+    }
+    .devInf>a:hover{
+        color: #151f98;
+    }
+}
+}
+@media screen and (max-width:768px){
+.container{
+visibility: hidden;
+}
+}
