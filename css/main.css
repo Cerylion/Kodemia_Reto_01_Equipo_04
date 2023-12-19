@@ -1,4 +1,52 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: rgb(223, 221, 219);
+}
+body header {
+  padding: 10px;
+}
+body header a:link {
+  color: black;
+}
+body header a:link:hover {
+  color: blue;
+}
+body header .coolSpan {
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+body header .coolSpan:hover {
+  background-color: white;
+}
+body main .articles {
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+body main .articles .articleItem {
+  border-radius: 7px;
+  background-color: white;
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  /* la seccion section es lo que tienen que cambiar con el mediaquerry */
+}
+body main .articles .articleItem img {
+  border-radius: 10px;
+  width: 98%;
+  margin: 0 auto;
+  display: block;
+}
+body main .articles .articleItem section {
+  margin: auto;
+  width: 99%;
+}
+body main .articles .articleItem .articleTitle {
+  font-size: xx-large;
+  width: 97%;
 }/*# sourceMappingURL=main.css.map */
