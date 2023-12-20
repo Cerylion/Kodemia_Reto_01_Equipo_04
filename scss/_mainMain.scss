@@ -2,8 +2,9 @@ body {
     width: 100%;
     background-color: gainsboro;    
     .wrapper {
+        padding-top: 60px;
         outline: solid purple;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: center;                

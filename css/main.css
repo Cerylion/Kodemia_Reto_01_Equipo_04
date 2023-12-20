@@ -4,7 +4,18 @@
   box-sizing: border-box;
 }
 
+.navBar {
+  background-color: white;
+  outline: solid blue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 16px;
+  margin: auto;
+}
+
 .container {
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   width: 280px;
@@ -222,8 +233,9 @@ body {
   background-color: gainsboro;
 }
 body .wrapper {
+  padding-top: 60px;
   outline: solid purple;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -363,16 +375,21 @@ body .wrapper .allMainStuff main .articles .articleItem section .botBox .pushRig
 }
 
 .asideRight {
+  padding-top: 60px;
   outline: solid green;
   display: flex;
   flex-direction: column;
-  width: 280px;
+  /* width: 280px; */
+  min-width: 250px;
+  max-width: 350px;
   height: auto;
   padding: 8px;
-  align-items: space-between;
 }
 .asideRight p {
-  width: 280px;
+  display: flex;
+  /* width: 280px; */
+  flex-basis: 250px;
+  max-width: 350px;
 }
 
 @media screen and (max-width: 768px) {
