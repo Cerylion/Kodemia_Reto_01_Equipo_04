@@ -1,7 +1,8 @@
-.container{
+.container{    
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 20%; */
+    flex: 2;
     height: 12119.8px;
     padding: 8px;
     flex-wrap: wrap;
@@ -107,7 +108,7 @@ justify-content: flex-start;
 margin-top:40px ;
 flex-wrap: wrap;
 justify-content: space-between;
-margin: 20px;
+margin: 5px;
 }
 
 .fa-twitter:hover{
@@ -218,6 +219,17 @@ color: #3b49df;
 }
 @media screen and (max-width:768px){
 .container{
-visibility: hidden;
+display: none;
 }
+}
+@media screen and (min-width:1024px) {
+    body {
+        
+        section.container{
+            ;
+        }
+
+    }
+    
+    
 }

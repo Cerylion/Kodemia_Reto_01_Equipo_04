@@ -4,15 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-  background-color: gainsboro;
-  display: flex;
-  justify-content: center;
 .container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 20%; */
+  flex: 2;
   height: 12119.8px;
   padding: 8px;
   flex-wrap: wrap;
@@ -116,7 +112,7 @@ body {
   margin-top: 40px;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 20px;
+  margin: 5px;
 }
 .container .opciones .fa-twitter:hover {
   text-decoration: underline;
@@ -224,61 +220,67 @@ body {
 
 @media screen and (max-width: 768px) {
   .container {
-    visibility: hidden;
+    display: none;
   }
 }
 body {
   width: 100%;
   background-color: gainsboro;
-  display: flex;
-  justify-content: center;
 }
-body .allMainStuff {
-  width: 95%;
+body .wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+body .wrapper .allMainStuff {
+  /* width: 40%; */
+  flex: 4;
   max-width: 900px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-body .allMainStuff header {
+body .wrapper .allMainStuff header {
   padding: 10px;
 }
-body .allMainStuff header a:link {
+body .wrapper .allMainStuff header a:link {
   text-decoration: none;
   color: black;
 }
-body .allMainStuff header a:link:hover {
+body .wrapper .allMainStuff header a:link:hover {
   color: blue;
 }
-body .allMainStuff header .coolSpan {
+body .wrapper .allMainStuff header .coolSpan {
   margin: auto;
   padding: 10px;
   border-radius: 10px;
 }
-body .allMainStuff header .coolSpan:hover {
+body .wrapper .allMainStuff header .coolSpan:hover {
   background-color: white;
 }
-body .allMainStuff main .articles {
+body .wrapper .allMainStuff main .articles {
   border-radius: 7px;
   width: 100%;
   margin: 0 auto;
   padding-bottom: 10px;
   /* la seccion section es lo que tienen que cambiar con el mediaquerry */
 }
-body .allMainStuff main .articles .articleItem {
+body .wrapper .allMainStuff main .articles .articleItem {
   border-radius: 7px;
   background-color: white;
   width: 100%;
   display: block;
   margin: 10px 0;
 }
-body .allMainStuff main .articles .articleItem img.articleImage {
+body .wrapper .allMainStuff main .articles .articleItem img.articleImage {
   border-radius: 10px;
   width: 98%;
   margin: 0 auto;
   display: block;
 }
-body .allMainStuff main .articles .articleItem .whoWroteThis {
+body .wrapper .allMainStuff main .articles .articleItem .whoWroteThis {
   padding: 0 20px;
   margin: 3px;
   display: flex;
@@ -287,7 +289,7 @@ body .allMainStuff main .articles .articleItem .whoWroteThis {
   justify-self: flex-start;
   justify-items: flex-start;
 }
-body .allMainStuff main .articles .articleItem .whoWroteThis img.faceIcon {
+body .wrapper .allMainStuff main .articles .articleItem .whoWroteThis img.faceIcon {
   border-radius: 50%;
   display: flex;
   align-self: center;
@@ -295,82 +297,83 @@ body .allMainStuff main .articles .articleItem .whoWroteThis img.faceIcon {
   width: 35px;
   height: 35px;
 }
-body .allMainStuff main .articles .articleItem .whoWroteThis .authorThing {
+body .wrapper .allMainStuff main .articles .articleItem .whoWroteThis .authorThing {
   padding: 0 10px;
 }
-body .allMainStuff main .articles .articleItem .whoWroteThis .authorThing ul {
+body .wrapper .allMainStuff main .articles .articleItem .whoWroteThis .authorThing ul {
   list-style-type: none;
 }
-body .allMainStuff main .articles .articleItem .whoWroteThis a:link {
+body .wrapper .allMainStuff main .articles .articleItem .whoWroteThis a:link {
   font-weight: bold;
   text-decoration: none;
   color: black;
 }
-body .allMainStuff main .articles .articleItem section { /*lo que tiene que cambiar ocn media querry es este margin y width */
+body .wrapper .allMainStuff main .articles .articleItem section { /*lo que tiene que cambiar ocn media querry es este margin y width */
   padding: 0 20px;
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
 }
-body .allMainStuff main .articles .articleItem section a:link {
+body .wrapper .allMainStuff main .articles .articleItem section a:link {
   font-weight: bold;
   text-decoration: none;
   color: black;
 }
-body .allMainStuff main .articles .articleItem section a:link:hover {
+body .wrapper .allMainStuff main .articles .articleItem section a:link:hover {
   color: blue;
 }
-body .allMainStuff main .articles .articleItem section .articleTitle {
+body .wrapper .allMainStuff main .articles .articleItem section .articleTitle {
   font-size: xx-large;
 }
-body .allMainStuff main .articles .articleItem section .hashtags {
+body .wrapper .allMainStuff main .articles .articleItem section .hashtags {
   margin: 5px 7px;
 }
-body .allMainStuff main .articles .articleItem section .hashtags .hashtag {
+body .wrapper .allMainStuff main .articles .articleItem section .hashtags .hashtag {
   padding: 3px;
 }
-body .allMainStuff main .articles .articleItem section .hashtags .hashtag:hover {
+body .wrapper .allMainStuff main .articles .articleItem section .hashtags .hashtag:hover {
   border-radius: 7px;
   background-color: rgb(201, 203, 204);
   border: solid 1px;
 }
-body .allMainStuff main .articles .articleItem section .botBox {
+body .wrapper .allMainStuff main .articles .articleItem section .botBox {
   border-radius: 7px;
   align-items: center;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-body .allMainStuff main .articles .articleItem section .botBox span {
+body .wrapper .allMainStuff main .articles .articleItem section .botBox span {
   margin: 0 7px;
 }
-body .allMainStuff main .articles .articleItem section .botBox .hoverStuff {
+body .wrapper .allMainStuff main .articles .articleItem section .botBox .hoverStuff {
   padding: 3px;
   border-radius: 7px;
 }
-body .allMainStuff main .articles .articleItem section .botBox .hoverStuff:hover {
+body .wrapper .allMainStuff main .articles .articleItem section .botBox .hoverStuff:hover {
   background-color: rgb(213, 213, 213);
 }
-body .allMainStuff main .articles .articleItem section .botBox .pushRight {
+body .wrapper .allMainStuff main .articles .articleItem section .botBox .pushRight {
   align-items: center;
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
 }
-body .allMainStuff main .articles .articleItem section .botBox .pushRight button {
+body .wrapper .allMainStuff main .articles .articleItem section .botBox .pushRight button {
   border: none;
   background-color: white;
   border-radius: 7px;
   padding: 7px;
 }
-body .allMainStuff main .articles .articleItem section .botBox .pushRight button:hover {
+body .wrapper .allMainStuff main .articles .articleItem section .botBox .pushRight button:hover {
   background-color: rgb(147, 175, 222);
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 20%; */
+  flex: 2;
   height: 12119.8px;
   padding: 8px;
   flex-wrap: wrap;
@@ -474,7 +477,7 @@ body .allMainStuff main .articles .articleItem section .botBox .pushRight button
   margin-top: 40px;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 20px;
+  margin: 5px;
 }
 .container .opciones .fa-twitter:hover {
   text-decoration: underline;
@@ -582,6 +585,15 @@ body .allMainStuff main .articles .articleItem section .botBox .pushRight button
 
 @media screen and (max-width: 768px) {
   .container {
-    visibility: hidden;
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .allMainStuff {
+    width: 100%;
+  }
+  body .allMainStuff main section {
+    width: 100%;
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */
