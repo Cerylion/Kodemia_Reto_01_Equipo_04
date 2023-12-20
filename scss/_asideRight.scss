@@ -1,0 +1,15 @@
+.asideRight {
+    outline: solid green;
+    display: flex;
+    flex-direction: column;
+    width: 280px;     
+    height: auto;
+    padding: 8px;            
+    align-items: space-between;
+    p {
+        width: 280px;
+    }
+}
+
+
+
