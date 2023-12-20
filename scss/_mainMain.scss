@@ -1,0 +1,145 @@
+body {    
+    width: 100%;
+    background-color: gainsboro;    
+    .wrapper {
+        padding-top: 60px;
+        outline: solid purple;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;                
+        .allMainStuff {
+            width: auto;            
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;        
+            align-items: flex-start;
+            header{                       
+                padding: 10px;
+                a:link {
+                    text-decoration: none;
+                    color: black;
+                    &:hover {
+                        color: blue;
+                    }
+                }
+                .coolSpan {
+                margin: auto;
+                padding: 10px;
+                border-radius: 10px;
+                &:hover {
+                    background-color: white;
+                }
+                }
+            }
+            main {
+                .articles {
+                    border-radius: 7px;
+                    width: 100%;
+                    margin: 0 auto;
+                    padding-bottom: 10px;
+                    .articleItem {
+                        img.articleImage {
+                            border-radius: 10px;
+                            width: 98%;
+                            margin: 0 auto;
+                            display: block;
+                        }
+                        border-radius: 7px;
+                        background-color: white;
+                        width: 100%;
+                        display: block;
+                        margin: 10px 0;
+                        .whoWroteThis {
+                            padding: 0 20px;
+                            margin: 3px;                        
+                            display: flex;
+                            height: 40px;
+                            justify-content: flex-start;
+                            justify-self: flex-start;
+                            justify-items: flex-start;
+                            img.faceIcon {
+                                border-radius: 50%;
+                                display: flex;
+                                align-self: center;
+                                justify-self: flex-start;
+                                width: 35px;
+                                height: 35px;
+                            }
+                            .authorThing {
+                                padding: 0 10px;
+                                ul {list-style-type: none;}
+                            }
+                            a:link {
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                        section { /*lo que tiene que cambiar ocn media querry es este margin y width */
+                            padding: 0 20px;
+                            width: 100%;
+                            height:fit-content;
+                            a:link {
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    color: blue;
+                                }
+                            }
+                            .articleTitle {
+                                font-size:xx-large;                        
+                            }
+                            .hashtags {
+                                margin: 5px 7px;
+                                .hashtag {
+                                    padding: 3px;
+                                    &:hover {
+                                        border-radius: 7px;
+                                        background-color: rgb(201, 203, 204);
+                                        border: solid 1px;                                
+                                    }
+                                }
+                            }
+                            .botBox {
+                                border-radius: 7px;
+                                align-items: center;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                span {
+                                    margin: 0 7px;
+                                }
+                                .hoverStuff {
+                                    padding: 3px;
+                                    border-radius: 7px;
+                                    &:hover {
+                                    background-color: rgb(213, 213, 213);
+                                    }
+                                }
+                                .pushRight {
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    margin-left: auto;
+                                    button {
+                                        border: none;
+                                        background-color: white;
+                                        border-radius: 7px;                                
+                                        padding: 7px;                                
+                                        &:hover {
+                                            background-color: rgb(147, 175, 222);
+                                        }
+                                    }                            
+                                }
+                            }
+                        }
+                    } /* la seccion section es lo que tienen que cambiar con el mediaquerry */
+                }
+            }
+        
+        }
+    }
+}
+
