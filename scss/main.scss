@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import "aside";
 
 body {
     width: 100%;
-    background-color: rgb(223, 221, 219);
+    background-color: gainsboro;
     display: flex;    
     justify-content: center;
     .allMainStuff {
@@ -141,3 +142,7 @@ body {
         }
     }
 }
+@import "aside";
+  
+
+
