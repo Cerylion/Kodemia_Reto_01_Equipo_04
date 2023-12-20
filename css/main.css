@@ -11,8 +11,9 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 12119.8px;
+  align-items: center;
+  width: 20%;
+  height: 100%;
   padding: 8px;
   flex-wrap: wrap;
   align-items: space-between;
@@ -115,7 +116,7 @@ body {
   margin-top: 40px;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 20px;
+  margin: 5px;
 }
 .container .opciones .fa-twitter:hover {
   text-decoration: underline;
@@ -224,5 +225,6 @@ body {
 @media screen and (max-width: 768px) {
   .container {
     visibility: hidden;
+    width: 0%;
   }
 }/*# sourceMappingURL=main.css.map */
