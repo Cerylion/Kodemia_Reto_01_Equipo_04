@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @import "navBar";
 @import "aside";
 @import "mainMain";
@@ -12,6 +13,18 @@
     .wrapper {
         flex-direction: row;
         width: 100%;
+        .navBar {
+            .navbarMenu {
+                input {
+                    width: auto;
+                }
+                .navRight {
+                    .login {
+                        display: none;
+                    }
+                }
+            }
+        }
         .container{
         display: none;
         }
