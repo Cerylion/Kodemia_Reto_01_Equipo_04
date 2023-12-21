@@ -456,20 +456,121 @@ body .wrapper .allMainStuff main .articles .articleItem section .botBox .pushRig
 
 .asideRight {
   padding-top: 60px;
-  outline: solid green;
   display: flex;
   flex-direction: column;
-  /* width: 280px; */
   min-width: 250px;
   max-width: 350px;
   height: auto;
   padding: 8px;
 }
-.asideRight p {
+.asideRight .firstContainer {
+  height: 700px;
+  width: 100%;
   display: flex;
-  /* width: 280px; */
-  flex-basis: 250px;
-  max-width: 350px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+}
+.asideRight .firstContainer header {
+  margin-left: 20px;
+}
+.asideRight .firstContainer header a {
+  border: none;
+  text-decoration: none;
+}
+.asideRight .firstContainer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* outline: solid blue; */
+  width: 100%;
+  border-top: solid 1px black;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.asideRight .firstContainer a div {
+  color: gray;
+}
+.asideRight .firstContainer a:hover {
+  color: rgb(70, 12, 145);
+}
+.asideRight .firstContainer a:hover div {
+  color: gray;
+}
+.asideRight .secondContainer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  padding: 2%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.asideRight .secondContainer header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.asideRight .secondContainer a {
+  text-decoration: none;
+  margin-bottom: 40px;
+  color: black;
+  text-decoration: none;
+}
+.asideRight .thirdContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 500px;
+}
+.asideRight .thirdContainer header {
+  margin-bottom: 20px;
+}
+.asideRight .thirdContainer a {
+  text-decoration: none;
+  margin-top: 10px;
+  color: black;
+  height: 40px;
+  width: 80%;
+}
+.asideRight .thirdContainer a:hover {
+  text-decoration: none;
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+}
+.asideRight .fourthContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 500px;
+}
+.asideRight .fourthContainer header {
+  margin-bottom: 20px;
+}
+.asideRight .fourthContainer a {
+  text-decoration: none;
+  margin-top: 10px;
+  color: black;
+  height: 40px;
+  width: 80%;
+}
+.asideRight .fourthContainer a:hover {
+  text-decoration: none;
+  margin-top: 10px;
+  color: black;
+  background-color: white;
 }
 
 @media screen and (max-width: 768px) {
