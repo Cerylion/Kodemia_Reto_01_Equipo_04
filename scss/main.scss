@@ -1,4 +1,52 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+@import "navBar";
+@import "aside";
+@import "mainMain";
+@import "asideRight";
+
+@media screen and (max-width:768px){
+    .wrapper {
+        flex-direction: row;
+        width: 100%;
+        .navBar {
+            .navbarMenu {
+                input {
+                    width: auto;
+                }
+                .navRight {
+                    .login {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .container{
+        display: none;
+        }
+        .allMainStuff {
+        width: 100%;
+        main {
+            section {
+                width: 100%;
+                display: block;
+                
+                }
+            }        
+        }
+    }
+}
+
+@media screen and (max-width:1024px){
+    .wrapper {
+        .asideRight {
+        display: none;
+        }
+    }
+}
+
+
