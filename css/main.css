@@ -18,7 +18,6 @@
 }
 .navBar .navbarMenu {
   align-items: center;
-  outline: solid red;
   display: flex;
   /*position: fixed;*/
   width: 100%;
