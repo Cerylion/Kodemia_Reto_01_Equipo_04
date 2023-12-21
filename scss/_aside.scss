@@ -155,16 +155,17 @@ color: #3b49df;
 
     }
     .darkMode{
+        
         display:flex;
         align-items: space-between;
         width: 255.54px;
-        height:488.54px;
+        height: 450px;
         background-color:#FFFF;
         padding:8px;
         flex-direction: column;
         margin-top: 20px;
     }
-    .DEV{
+    .DEV{        
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -181,9 +182,9 @@ color: #3b49df;
         margin: 0px 0px 9px;
         padding: 12px 4px 4px;
     }
-    .Dark>h2{
+    .Dark>h2{        
         width: 223.54;
-        height:90;
+        height:90px;
         font-size: 24px;
     }
     .Dark>h2>a{
@@ -194,24 +195,24 @@ color: #3b49df;
         width: 223.54;
         height:72px;
     }
-    .ultimateInfo{
-        width: 255.54px;
+    .ultimateInfo{        
+        width: 249px;
         margin-top:20px;
     }
     .devInfo{
-        width:255.54px;
+        width:auto;
         height:84px;
         font-size:14px;
         margin-top:20px;
     }
     .devSecond{
-        width:255.54px;
+        width:auto;
         height:63px;
         margin: 16px 0px 0px;
         font-size:14px;
     }
     .devThird{
-        width:255.54px;
+        width:auto;
         height:42px;
         margin:16px 0px 0px;
         font-size:14px;
