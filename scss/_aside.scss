@@ -155,16 +155,17 @@ color: #3b49df;
 
     }
     .darkMode{
+        outline: solid red;
         display:flex;
         align-items: space-between;
         width: 255.54px;
-        height:488.54;
+        height: 450px;
         background-color:#FFFF;
         padding:8px;
         flex-direction: column;
         margin-top: 20px;
     }
-    .DEV{
+    .DEV{        
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -195,20 +196,21 @@ color: #3b49df;
         height:72px;
     }
     .ultimateInfo{
-        width: 255.54px;
+        outline: solid green;
+        width: 249px;
         margin-top:20px;
     }
     .devInfo{
-        width:255.54px;
+        width:auto;
         height:84px;
     }
     .devSecond{
-        width:255.54px;
+        width:auto;
         height:63px;
         margin: 16px 0px 0px;
     }
     .devThird{
-        width:255.54px;
+        width:auto;
         height:42px;
         margin:16px 0px 0px;
     }

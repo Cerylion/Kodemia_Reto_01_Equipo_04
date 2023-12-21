@@ -167,10 +167,11 @@
   overflow-x: hidden;
 }
 .container .opciones .darkMode {
+  outline: solid red;
   display: flex;
   align-items: space-between;
   width: 255.54px;
-  height: 488.54;
+  height: 450px;
   background-color: white;
   padding: 8px;
   flex-direction: column;
@@ -207,20 +208,21 @@
   height: 72px;
 }
 .container .opciones .ultimateInfo {
-  width: 255.54px;
+  outline: solid green;
+  width: 249px;
   margin-top: 20px;
 }
 .container .opciones .devInfo {
-  width: 255.54px;
+  width: auto;
   height: 84px;
 }
 .container .opciones .devSecond {
-  width: 255.54px;
+  width: auto;
   height: 63px;
   margin: 16px 0px 0px;
 }
 .container .opciones .devThird {
-  width: 255.54px;
+  width: auto;
   height: 42px;
   margin: 16px 0px 0px;
 }
