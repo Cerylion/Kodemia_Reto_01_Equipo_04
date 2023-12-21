@@ -1,9 +1,108 @@
 .navBar {
+    /*outline: solid blue;*/
     background-color: white;
-    outline: solid blue;
     position: fixed;
     top: 0;
-    width: 100%;
-    padding: 16px;
-    margin: auto;
+    width: 100%;    
+    margin: auto; 
+    flex-wrap:wrap;
+    padding: 0 20px;
+    display: flex;
+    width:100%;
+
+    .navbarMenu {
+        align-items: center;
+        outline: solid red;
+        display: flex;
+        // flex-wrap:wrap;
+        /*position: fixed;*/
+        width:100%;
+    }
+
+    a.login {
+        
+        // outline: solid green;
+        /*position:relative;*/
+        
+        /*left: 600px;*/
+
+    }
+
+    a.createaccount {
+        // outline: solid green;
+        /*position:relative;
+        left: 600px;*/
+    }
+
+    .navbarMenu {
+        // outline: solid red;
+        background: rgb(255, 255, 255);
+        border: 1px solid rgba(219, 214, 214, 0.932);
+        align-items: center;
+        img {
+            width:47px;
+            cursor: pointer;
+            /*height: 38px;*/
+            // position:relative;
+            /*left: 8px;
+            top:5px;*/
+
+        }
+        
+        input  {                    
+            // outline: solid blue;
+            margin:10px;
+            padding: 0;            
+            width: 400px;
+            height: 30px;
+            border: 1px solid rgb(214, 200, 200);
+            border-radius: 5px;
+            display:inline-block;
+            line-height: 20px;
+            position:relative;
+            left: 25px;
+        }
+        .navRight {
+            margin-left: auto;
+            a.login  {
+                button  {        
+                //    outline: solid green;
+                border: 0;
+                padding: 10px;
+                background-color: white;
+                position: relative;
+                /*top: 5px;*/
+                font-size: 14px;
+                &:hover {
+                    background-color: rgba(224, 224, 224, 0.63);
+                    color:  rgb(36, 36, 209);
+                    text-decoration: underline;
+                    }
+                }                
+            }
+
+            a.createaccount { 
+                button {
+                margin: 0;
+                padding: 10px;
+                border: 1px solid rgb(36, 36, 209);
+                background-color: rgb(255, 255, 255);
+                border-radius: 7px;
+                color: rgb(36, 36, 209);
+                font-size: 14px;
+                font-weight:500;
+                position: relative;
+                /*top: 5px;*/
+                }
+
+                button:hover {
+                border: 1px solid rgb(36, 36, 209);
+                background-color: rgb(36, 36, 209);
+                color: white;
+                text-decoration: underline;
+                }
+            }                
+        }
+    }
 }
+
