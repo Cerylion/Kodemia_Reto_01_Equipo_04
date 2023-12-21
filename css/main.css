@@ -170,7 +170,7 @@
   display: flex;
   align-items: space-between;
   width: 255.54px;
-  height: 488.54;
+  height: 488.54px;
   background-color: white;
   padding: 8px;
   flex-direction: column;
@@ -213,16 +213,20 @@
 .container .opciones .devInfo {
   width: 255.54px;
   height: 84px;
+  font-size: 14px;
+  margin-top: 20px;
 }
 .container .opciones .devSecond {
   width: 255.54px;
   height: 63px;
   margin: 16px 0px 0px;
+  font-size: 14px;
 }
 .container .opciones .devThird {
   width: 255.54px;
   height: 42px;
   margin: 16px 0px 0px;
+  font-size: 14px;
 }
 .container .opciones .devInf > a:hover {
   color: #151f98;
